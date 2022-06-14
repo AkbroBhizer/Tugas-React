@@ -36,7 +36,7 @@ class Form extends Component{
     render(){
         return(
             <div className={styles.container}>
-                <input type="text" placeholder="Add To-Do List..." value={this.state.title} name="title" onChange={(e) => {this.onChange(e)}} />
+                <input type="text" placeholder="Jadi Gini..." value={this.state.title} name="title" onChange={(e) => {this.onChange(e)}} />
                 <button onClick={this.handleSubmit}>Submit</button>
             </div>
         )

@@ -51,7 +51,7 @@ class MainPage extends Component{
     render(){
         return (
             <div className={styles.container}>
-              <h1>To-Do List</h1>
+              <h1>Tugas React</h1>
               <Form addTodo={this.addTodo}/>
               <List todos={this.state.data} deleteTodo={this.deleteTodo} checkTodo={this.checkTodo}/>
             </div>
